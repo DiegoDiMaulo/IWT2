@@ -5,26 +5,24 @@ In the folder "C++", there are all necessary files to execute the algorithm from
 In the folder "R", there are all necessary files to execute the algorithm from R.
 
 
+# TESTS FROM COMMAND LINE
 
-## TESTS FROM COMMAND LINE
-
-### Requirements:
+Requirements:
 - main.cpp,
 - Makefile,
 - GetPot header (2.0 or later),
 - Eigen library (3.3.3 or later).
 
-### Commands:
+Commands:
 $ module load eigen
 $ export OMP_NUM_THREADS=1
 $ make
 $ ./main n1=50 n2=50 p=10
 
 
+# EXAMPLES FROM R
 
-## EXAMPLES FROM R
-
-### Requirements:
+Requirements:
 - Examples.R,
 - AuxiliaryFunctions.R,
 - IWT2.R,
@@ -35,5 +33,5 @@ $ ./main n1=50 n2=50 p=10
 - RcppEigen package (0.3.3.3 or later),
 - Rtools (latest frozen version).
 
-### Commands:
+Commands:
 source("Examples.R")
