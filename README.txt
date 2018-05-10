@@ -1,3 +1,11 @@
+IWT2
+
+This repository contains the code of the IWT2 algorithm, standing for IntervalWise T^2 Testing.
+In the folder "C++", there are all necessary files to execute the algorithm from command line.
+In the folder "R", there are all necessary files to execute the algorithm from R.
+
+
+
 TESTS FROM COMMAND LINE
 
 Requirements:
